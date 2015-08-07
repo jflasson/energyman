@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<title>Energyman</title>
+	<link rel="stylesheet" type="text/css" href='../css/style.css'></link>
+</head>
+<body>
+	<header id = "banner">
+	Banner
+	</header>
+	<nav id= "navbar">
+		<a href="./index">Start</a>
+		<a href="./services">Tjänster</a>
+		<a href="./about">Om oss</a>
+		<a href="./inmedia">EM i media</a>
+	</nav>
+	<main class = "mainContent">
+		{+mainContent}
+		{/mainContent}
+	</main>
+	<footer>
+	Here be contact info
+	</footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "energyman",
+  "version": "1.0.0",
+  "description": "Webpage written in express.js",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jflasson/energyman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jflasson/energyman/issues"
+  },
+  "homepage": "https://github.com/jflasson/energyman#readme",
+  "dependencies": {
+    "consolidate": "^0.13.1",
+    "dustjs-linkedin": "^2.7.2",
+    "express": "^4.13.3"
+  }
+}

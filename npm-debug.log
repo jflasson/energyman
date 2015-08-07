@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install', 'fsevents', '--save' ]
+2 info using npm@2.13.2
+3 info using node@v0.12.7
+4 verbose install initial load of /home/johan/dev/energyman/package.json
+5 verbose installManyTop reading scoped package data from /home/johan/dev/energyman/node_modules/consolidate/package.json
+6 verbose installManyTop reading scoped package data from /home/johan/dev/energyman/node_modules/dustjs-linkedin/package.json
+7 verbose installManyTop reading scoped package data from /home/johan/dev/energyman/node_modules/express/package.json
+8 verbose readDependencies loading dependencies from /home/johan/dev/energyman/package.json
+9 silly cache add args [ 'fsevents', null ]
+10 verbose cache add spec fsevents
+11 silly cache add parsed spec { raw: 'fsevents',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'fsevents',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 silly addNamed fsevents@*
+13 verbose addNamed "*" is a valid semver range for fsevents
+14 silly addNameRange { name: 'fsevents', range: '*', hasData: false }
+15 silly mapToRegistry name fsevents
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+19 verbose addNameRange registry:https://registry.npmjs.org/fsevents not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/fsevents
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 4:46:35 PM
+23 verbose request id 177b80287ebfe83a
+24 verbose etag "8WQZF3VDLE2ILUV060E4XV04C"
+25 http request GET https://registry.npmjs.org/fsevents
+26 http 304 https://registry.npmjs.org/fsevents
+27 silly get cb [ 304,
+27 silly get   { date: 'Thu, 06 Aug 2015 14:46:35 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     'cache-control': 'max-age=60',
+27 silly get     etag: '"8WQZF3VDLE2ILUV060E4XV04C"',
+27 silly get     age: '40',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-fra1223-FRA',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '1',
+27 silly get     'x-timer': 'S1438872395.274294,VS0,VE0',
+27 silly get     vary: 'Accept' } ]
+28 verbose etag https://registry.npmjs.org/fsevents from cache
+29 verbose get saving fsevents to /home/johan/.npm/registry.npmjs.org/fsevents/.cache.json
+30 silly addNameRange number 2 { name: 'fsevents', range: '*', hasData: true }
+31 silly addNameRange versions [ 'fsevents',
+31 silly addNameRange   [ '0.1.1',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.1.5',
+31 silly addNameRange     '0.1.6',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.3.2',
+31 silly addNameRange     '0.3.3',
+31 silly addNameRange     '0.3.4',
+31 silly addNameRange     '0.3.5',
+31 silly addNameRange     '0.3.6',
+31 silly addNameRange     '0.3.7' ] ]
+32 silly addNamed fsevents@0.3.7
+33 verbose addNamed "0.3.7" is a plain semver version for fsevents
+34 silly cache afterAdd fsevents@0.3.7
+35 verbose afterAdd /home/johan/.npm/fsevents/0.3.7/package/package.json not in flight; writing
+36 verbose afterAdd /home/johan/.npm/fsevents/0.3.7/package/package.json written
+37 silly install resolved [ { name: 'fsevents',
+37 silly install resolved     version: '0.3.7',
+37 silly install resolved     description: 'Native Access to Mac OS-X FSEvents',
+37 silly install resolved     main: 'fsevents.js',
+37 silly install resolved     dependencies: { nan: '^1.8.0' },
+37 silly install resolved     os: [ 'darwin' ],
+37 silly install resolved     engines: { node: '>=0.8.0' },
+37 silly install resolved     scripts: { test: 'tap ./test', install: 'node-gyp rebuild' },
+37 silly install resolved     repository:
+37 silly install resolved      { type: 'git',
+37 silly install resolved        url: 'git+https://github.com/strongloop/fsevents.git' },
+37 silly install resolved     keywords: [ 'fsevents', 'mac' ],
+37 silly install resolved     author: { name: 'Philipp Dunkel', email: 'pip@pipobscure.com' },
+37 silly install resolved     license: 'MIT',
+37 silly install resolved     bugs: { url: 'https://github.com/strongloop/fsevents/issues' },
+37 silly install resolved     homepage: 'https://github.com/strongloop/fsevents',
+37 silly install resolved     devDependencies: { tap: '~0.4.8' },
+37 silly install resolved     gypfile: true,
+37 silly install resolved     gitHead: '375f602e236c6f64e5ebdeb6bc39a0437a0ffef3',
+37 silly install resolved     _id: 'fsevents@0.3.7',
+37 silly install resolved     _shasum: '7760c08570126c3d17a10489c0ad5ac515fbaa6e',
+37 silly install resolved     _from: 'fsevents@*',
+37 silly install resolved     _npmVersion: '2.11.3',
+37 silly install resolved     _nodeVersion: '2.3.2',
+37 silly install resolved     _npmUser: { name: 'bnoordhuis', email: 'info@bnoordhuis.nl' },
+37 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+37 silly install resolved     dist:
+37 silly install resolved      { shasum: '7760c08570126c3d17a10489c0ad5ac515fbaa6e',
+37 silly install resolved        tarball: 'http://registry.npmjs.org/fsevents/-/fsevents-0.3.7.tgz' },
+37 silly install resolved     directories: {},
+37 silly install resolved     _resolved: 'https://registry.npmjs.org/fsevents/-/fsevents-0.3.7.tgz',
+37 silly install resolved     readme: 'ERROR: No README data found!' } ]
+38 info install fsevents@0.3.7 into /home/johan/dev/energyman
+39 info installOne fsevents@0.3.7
+40 verbose installOne of fsevents to /home/johan/dev/energyman not in flight; installing
+41 verbose lock using /home/johan/.npm/_locks/fsevents-c5201495053e4e53.lock for /home/johan/dev/energyman/node_modules/fsevents
+42 verbose unlock done using /home/johan/.npm/_locks/fsevents-c5201495053e4e53.lock for /home/johan/dev/energyman/node_modules/fsevents
+43 verbose stack Error: Unsupported
+43 verbose stack     at checkPlatform (/usr/lib/node_modules/npm/node_modules/npm-install-checks/index.js:47:14)
+43 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+43 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+43 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+43 verbose stack     at checkEngine (/usr/lib/node_modules/npm/node_modules/npm-install-checks/index.js:26:10)
+43 verbose stack     at Array.<anonymous> (/usr/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+43 verbose stack     at LOOP (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+43 verbose stack     at chain (/usr/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+43 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:1038:5
+43 verbose stack     at /usr/lib/node_modules/npm/lib/utils/locker.js:39:7
+44 verbose pkgid fsevents@0.3.7
+45 verbose cwd /home/johan/dev/energyman
+46 error Linux 4.1.4-1-ARCH
+47 error argv "node" "/usr/bin/npm" "install" "fsevents" "--save"
+48 error node v0.12.7
+49 error npm  v2.13.2
+50 error code EBADPLATFORM
+51 error notsup Unsupported
+51 error notsup Not compatible with your operating system or architecture: fsevents@0.3.7
+51 error notsup Valid OS:    darwin
+51 error notsup Valid Arch:  any
+51 error notsup Actual OS:   linux
+51 error notsup Actual Arch: x64
+52 verbose exit [ 1, true ]

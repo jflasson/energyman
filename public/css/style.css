@@ -1,0 +1,44 @@
+#banner{
+	width: 100%;
+	height: 100px;
+	background: khaki;
+}
+
+#navbar{
+	background: MidnightBlue;
+	height: 30px;
+}
+
+#navbar a{
+	background: white;
+	margin-left: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+section{
+	width: 75%;
+	float:left;
+	height: 500px;
+}
+section h4{
+	margin-left: 10px;
+}
+section p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+aside{
+	width: 25%;
+	background: grey;
+	float: right;
+	height: 500px;
+}
+
+footer{
+	width: 100%;
+	height: 40px;
+	background: green;
+	float: right;
+}
